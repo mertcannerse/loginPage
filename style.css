@@ -1,0 +1,116 @@
+.container {
+  margin: 5rem auto;
+  width: 30rem;
+  border: 1px solid #000;
+}
+
+#loginForm {
+  margin-top: 3rem;
+  padding: 0 0.4rem;
+}
+
+.usernameContainer,
+.passwordContainer {
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  width: 25rem;
+  margin: 1rem 2rem;
+}
+
+.usernameContainer > label,
+.passwordContainer > label {
+  font-size: 17px;
+  margin-bottom: 0.5rem;
+}
+
+.username,
+.password {
+  height: 1.7rem;
+  outline: none;
+}
+
+.formBtn {
+  height: 1.7rem;
+  margin: 2rem 2rem 3rem;
+  width: 25rem;
+  border: 1px solid #000;
+  color: #fff;
+  background: #000;
+  cursor: pointer;
+}
+
+.formBtn:hover {
+  color: #000;
+  background: #fff;
+}
+
+#userList {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+}
+
+#userList,
+.profile {
+  padding-right: 3rem;
+}
+
+.userItem {
+  list-style-type: none;
+  margin: -1rem 1rem 3rem 1rem !important;
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.userItemIcon {
+  font-size: 2rem;
+}
+
+.profile {
+  padding: 1rem 2rem;
+  margin: 1rem 2.5rem 0 1.5rem;
+  list-style-type: none;
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+}
+
+.profile:first-child {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.profileIcon {
+  font-size: 4rem;
+  margin: 1.2rem 5.5rem;
+}
+
+.logOutBtn,
+.removeBtn {
+  height: 1.7rem;
+  margin: 2rem 1rem 0;
+}
+
+.logInBtn {
+  height: 1.2rem;
+  margin: 0.3rem 0.5rem;
+}
+
+.logOutBtn,
+.removeBtn,
+.logInBtn {
+  width: 6rem;
+  border: 1px solid #000;
+  color: #fff;
+  background: #000;
+  cursor: pointer;
+}
+
+.logOutBtn:hover,
+.removeBtn:hover,
+.logInBtn:hover {
+  color: #000;
+  background: #fff;
+}
